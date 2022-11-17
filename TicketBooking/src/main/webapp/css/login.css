@@ -1,0 +1,103 @@
+body {
+	padding: 0;
+	margin: 0;
+	background-image: url("../img/football.jpg");
+	/*background: -webkit-gradient(linear, left top, right bottom, 
+			from(#000000), to(#395B64)) fixed;*/
+}
+.login_div {
+	position: absolute;
+	left: 50%;
+  	top: 50%;
+  	transform: translateY(-50%) translateX(-50%);
+	background-image: linear-gradient(to right, rgba(0, 20, 20, 0.4),
+					 rgba(57, 91, 100, 0.7));
+	color: #fff;
+	width: 25%;
+	border-radius: 20px;
+	padding: 2rem 3rem;
+	font-family: sans-serif;
+	box-shadow: -2px 5px 20px rgb(0, 0, 0);
+	margin-top: 2em;
+	min-width: 200px;
+}
+p {
+	font-size:13px; 
+	margin-top: -8px;
+}
+input {
+  width: 100%;
+  padding: 10px 30px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: transparent;
+  border: 1px solid #789395;
+  color: #ddd;
+}
+.btn_submit {
+	margin-top: 20px;
+	border-width: 1px;
+	box-shadow: 0 2px 5px rgb(0, 0, 0);
+}
+.btn_submit:hover {
+	box-shadow: 0 10px 25px rgb(0, 0, 0);
+	transition: all 0.3s ease-in-out;
+	cursor: pointer;
+}
+a {
+	text-decoration: none;
+	color: #ded;
+	font-size: 14px;
+	text-shadow: 2px 2px 5px rgb(0, 0, 0);
+	margin-top: 10px;
+}
+.already_acc {
+	text-align: center;
+}
+.user_email {
+	margin-top: -10px;
+}
+.user_pass {
+	margin-top: -20px;
+}
+.user_conf_pass {
+	margin-top: -30px;
+}
+.first_name {
+	margin-top: -40px;
+}
+.last_name {
+	margin-top: -50px;
+}
+.user_dob {
+	margin-top: -60px;
+}
+.user_phone {
+	margin-top: -70px;
+}
+.fa-phone {
+	transform: rotate(90deg);
+}
+input:focus,
+button:focus {
+    outline: none;
+}
+.my_icon {
+	position: relative; 
+	left: 7px; 
+	top: 20px; 
+	color: #789395;
+}
+.login_forget {
+	float: left;
+}
+.signup_forget {
+	float: right;
+}
+::placeholder {
+	color: #cdc;
+}
+a:hover {
+	color: #35858B;
+}

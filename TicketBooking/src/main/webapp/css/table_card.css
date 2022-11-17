@@ -1,0 +1,140 @@
+
+html {
+	margin: 0;
+	padding: 0;
+	min-height:100%;
+	background:linear-gradient(270deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url("/img/training.jpeg");
+	background-size:cover;
+}
+.new{
+	top: 200;
+}
+.point_card {
+	width: 160px;
+	height: 115px;
+	background: #fff;
+	border: 1px solid #aaa;
+	border-radius: 10px;
+}
+.card_container {
+	display: block;
+	position: absolute;
+	top: 8em;
+	left: 23em;
+}
+img {
+	width: 20px;
+	height: 20px;
+	margin-right: 5px;
+	border: 1px solid #aaa;
+	border-radius: 2px;
+}
+.country {
+	display: flex;
+	font-family: sans-serif;
+	font-weight: bold;
+	margin: 5px;
+	font-size: 14px;
+	align-items: center;
+}
+span {
+	padding: 5px;
+}
+.country_detail {
+	margin-left: 5px;
+}
+.date_time {
+	font-family: sans-serif;
+	font-size: 12px;
+	padding: 10px 0 5px 10px;
+	font-weight: bold;
+	font-style: italic;
+	color: #777;
+}
+.score {
+	text-align: right;
+	width: 70px;
+	margin-right: 5px;
+}
+play {
+	display: inline-flex;
+	float: right;
+	margin-right: 30px;
+	width: 10px;
+	height: 10px;
+	font-style: normal;
+}
+img .play_btn {
+	border: none;
+}
+.point_card .num2 {
+	margin-top: 30px;
+}
+.point_card .num3 {
+	margin-top: 20px;
+}
+.point_card .num4 {
+	margin-top: 20px;
+}
+.curved_lines {
+	width: 155px;
+	height: 140px;
+	background: transparent;
+	border: 1px solid #fff;
+	border-left: 0;
+	border-radius: 10px;
+	position: absolute;
+	top: 60px;
+	left: 25px;
+	z-index: -1;
+}
+.curve2 {
+	top: 300px;
+}
+.level2 {
+	position: absolute;
+	top: 60px;
+	left: 210px;
+}
+.level3 {
+	position: absolute;
+	top: 240px;
+}
+.level4 {
+	position: absolute;
+	top: -120px;
+	left: 200px;
+}
+.curved_level2_lines {
+	width: 210px;
+	height: 240px;
+	background: transparent;
+	border: 1px solid #fff;
+	border-left: 0;
+	border-radius: 0 10px 10px 0;
+	position: absolute;
+	top: 110px;
+	left: 180px;
+	z-index: -2;
+}
+.curved_lines_level4 {
+	width: 21px;
+	height: 0px;
+	background: transparent;
+	border: 1px solid #fff;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+	position: absolute;
+	top: -70px;
+	left: 178px;
+	z-index: 1;
+}
+.winner {
+	width: 0; 
+    height: 0; 
+    border-left: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-right:8px solid #000; 
+    margin-right: -6px;
+}
